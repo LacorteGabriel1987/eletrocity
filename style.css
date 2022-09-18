@@ -4,3 +4,27 @@
     margin:0;
     padding:0;
 }
+
+/*cabeçalho*/
+
+.title{
+    padding: 2px;
+    margin-left: 10px;
+}
+
+header{
+    border:1px solid black;
+    width: 215vh;
+    margin: 2px;
+}
+
+header,.principal, .cabeça{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+.cabeça{
+    font-size: 20px;
+    padding:10px;
+}
