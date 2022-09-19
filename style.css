@@ -26,5 +26,37 @@ header,.principal, .cabeça{
 
 .cabeça{
     font-size: 20px;
-    padding:10px;
+    padding:2px;
+}
+
+/*cabeçalho*/
+
+.empresa{
+    display: flex;
+    margin: 20px 0px 0px 50px;
+    text-align: center;
+    background-color: brown;
+}
+
+.p-primeiro, .subtitle {
+    margin:20px;
+    padding: 2px;
+}
+
+.subtitle{
+    text-align: center;
+}
+
+.empresa-topico1{
+    border: 1px solid black;
+    width: 500px;
+    height: 400px;
+    margin-left: 100px;
+    border: none;
+    
+}
+
+.p-primeiro{
+    margin: 2px;
+   
 }
