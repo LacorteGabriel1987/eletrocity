@@ -60,3 +60,13 @@ header,.principal, .cabeça{
     margin: 2px;
    
 }
+
+/*section*/
+
+.grid{
+    display: inline-flex;
+    border: 1px solid black;
+    width: 215vh;
+    justify-content:space-around;   
+    
+}
