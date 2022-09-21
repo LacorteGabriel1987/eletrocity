@@ -71,10 +71,10 @@ header,.principal, .cabeça{
     margin: 2px;
     list-style-type:none ;
 }
-
-h3{
+.subtitle-section{
     text-align: center;
-    font-size: 22px;    
+    font-size: 22px;
+    margin: 20px 0 20px 0;
 }
 
 li,p{
