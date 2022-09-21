@@ -14,7 +14,7 @@
 
 header{
     border:1px solid black;
-    width: 215vh;
+    width: 204vh;
     margin: 2px;
 }
 
@@ -29,7 +29,7 @@ header,.principal, .cabeça{
     padding:2px;
 }
 
-/*cabeçalho*/
+/*Main*/
 
 .empresa{
     display: flex;
@@ -66,7 +66,17 @@ header,.principal, .cabeça{
 .grid{
     display: inline-flex;
     border: 1px solid black;
-    width: 215vh;
-    justify-content:space-around;   
-    
+    width: 204vh;
+    justify-content:space-around;
+    margin: 2px;
+    list-style-type:none ;
+}
+
+h3{
+    text-align: center;
+    font-size: 22px;    
+}
+
+li,p{
+    list-style-type:none ;
 }
