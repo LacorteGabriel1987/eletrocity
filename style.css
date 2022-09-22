@@ -1,5 +1,5 @@
 *{
-    background-color:rgb(226, 236, 233);
+    background-color:rgba(242, 250, 248, 0.973);
     font-family:Arial, Helvetica, sans-serif;
     margin:0;
     padding:0;
@@ -80,3 +80,41 @@ header,.principal, .cabeça{
 li,p{
     list-style-type:none ;
 }
+
+.container {
+    position: relative;
+    width: 100%;
+  }
+
+.image{
+    display: block;
+    width: 100%;    
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #030203;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: 2s ease;
+  }
+
+.text {
+    white-space: nowrap; 
+    color: rgb(43, 129, 51);
+    font-size: 20px;
+    background-color: aqua;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  .container:hover .overlay{
+    width: 100%;
+  }
