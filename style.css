@@ -95,7 +95,7 @@ li,p{
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #030203;
+    background-image:url(/img/mouse1.JPG);
     overflow: hidden;
     width: 0;
     height: 100%;
@@ -104,9 +104,9 @@ li,p{
 
 .text {
     white-space: nowrap; 
-    color: rgb(43, 129, 51);
+    color: rgb(236, 236, 236);
     font-size: 20px;
-    background-color: aqua;
+    background-color: rgb(121, 131, 131);
     position: absolute;
     overflow: hidden;
     top: 50%;
