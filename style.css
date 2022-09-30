@@ -95,7 +95,7 @@ li,p{
     bottom: 0;
     left: 0;
     right: 0;
-    background-image:url(/img/mouse1.JPG);
+    background-image:url(/img/empresag.jpg);
     overflow: hidden;
     width: 0;
     height: 100%;
@@ -117,4 +117,20 @@ li,p{
 
   .container:hover .overlay{
     width: 100%;
+  }
+
+  .rodape{
+    border: 1px solid black;
+    width: 204vh;
+    height: 5ch;
+    margin: -2px 2px 0px 2px;
+    border:none;
+    
+  }
+
+  .rodape-principal{
+    text-align: center;
+    padding: 10px;
+    background-color: blue;
+
   }
