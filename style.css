@@ -119,16 +119,51 @@ li,p{
     width: 100%;
   }
 
+  form{
+    display: flex;
+    flex-direction: column;
+    width: 40vh;
+    height: 40ch;
+    margin: 10px 0px 0px 10px;
+  }
+
+  label{
+    padding: 5px;
+  }
+
+  .enviar{
+    background-color: rgb(150, 187, 163);
+    border:none;
+    height: 20px;
+  }
+
+  .enviar:hover{
+    background-color:blueviolet;
+    cursor: pointer;
+  }
+
+#nomesobrenome{
+    height: 18px;
+  }
+  #telefone{
+    height: 18px;
+  }
+  #email{
+    height: 18px;
+  }
+  .subtitle-final{
+    text-align: center;
+    margin:20px;
+  }
   .rodape{
     border: 1px solid black;
     width: 204vh;
     height: 5ch;
     margin: -2px 2px 0px 2px;
-    border:none;
-    
+    border:none;    
   }
 
-  .rodape-principal{
+ .rodape-principal{
     text-align: center;
     padding: 10px;
     background-color: blue;
