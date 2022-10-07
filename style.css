@@ -1,7 +1,11 @@
-*{
+*{ 
     font-family:Arial, Helvetica, sans-serif;
     margin:0;
     padding:0;
+    
+}
+.empresa, section, main, .empresa-topico1{
+  background-color: rgba(255, 255, 255, 0.945);;
 }
 
 /*cabeçalho*/
@@ -12,17 +16,21 @@
 }
 
 header{
-    border:1px solid black;
     width: 204vh;
     margin: 2px;
+    background-color: rgb(218, 168, 168);
+    
 }
 
 header,.principal, .cabeça{
     display: flex;
     justify-content: space-between;
     margin-right: 10px;
-    border:none;
-    
+       
+}
+
+.principal{
+  padding: 5px;
 }
 
 .cabeça{
@@ -42,7 +50,7 @@ header,.principal, .cabeça{
 
 .p-primeiro, .subtitle {
     margin:20px;
-    padding: 2px;
+    padding: 10px;
 }
 
 .subtitle{
@@ -54,8 +62,8 @@ header,.principal, .cabeça{
     width: 500px;
     height: 400px;
     margin-left: 100px;
-    border: none;
-    
+    border:none;
+       
 }
 
 .p-primeiro{
@@ -68,6 +76,7 @@ header,.principal, .cabeça{
 .grid{
     display: inline-flex;
     border: 1px solid black;
+    border:none;
     width: 204vh;
     justify-content:space-around;
     margin: 2px;
@@ -76,7 +85,8 @@ header,.principal, .cabeça{
 .subtitle-section{
     text-align: center;
     font-size: 22px;
-    margin: 20px 0 20px 0;
+    margin: 40px 0 20px 0;
+    background-color: rgb(226, 186, 186);
 }
 
 li,p{
@@ -157,17 +167,20 @@ li,p{
     text-align: center;
     margin:20px;
   }
+
+  /*Footer*/
+
   .rodape{
     border: 1px solid black;
     width: 204vh;
     height: 5ch;
     margin: -2px 2px 0px 2px;
-    border:none;    
+       
   }
 
    .rodape-principal{
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     background-color: rgb(38, 38, 44);
     color:white;
     height: 5vh;
